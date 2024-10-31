@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+body{
+    overflow-x: hidden;
+}
+#page1,#page2,#page3{
+    height:100vh;
+    width:100%;
+}
+#move{
+
+    padding:3vw 0;
+    display: flex;
+    background: rgb(195, 239, 21);
+
+}
+.marquee{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap:3vw;
+    padding:25px;
+}
+.marquee h1{
+    font-size: 3vw;
+}
+#logo{
+    height:5.5vh;
+    width:6vw;
+}
